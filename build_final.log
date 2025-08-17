@@ -1,0 +1,21 @@
+
+> rest-express@1.0.0 build
+> vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist
+
+vite v5.4.19 building for production...
+transforming...
+Browserslist: browsers data (caniuse-lite) is 10 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+✓ 1676 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/public/index.html                                 2.14 kB │ gzip:  0.86 kB
+../dist/public/assets/image_1755445310004-V6Rj_opJ.png  455.88 kB
+../dist/public/assets/index-CqsL-mIn.css                 65.33 kB │ gzip: 12.13 kB
+../dist/public/assets/index-7ySbsujz.js                 299.96 kB │ gzip: 96.04 kB
+✓ built in 7.46s
+
+  dist/index.js  11.8kb
+
+⚡ Done in 11ms
